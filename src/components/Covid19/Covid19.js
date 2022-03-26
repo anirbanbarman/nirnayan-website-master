@@ -3,7 +3,7 @@ import './Covid19.scss';
 
 function Covid19() {
     return (
-        <div className='container my-5 position-relative'>
+        <div className='container  position-relative' style={{marginTop:"7rem"}}>
              <div className="text-center">
                 <h1 >Covid-19</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga </p>
@@ -18,7 +18,7 @@ function Covid19() {
                         backgroundImage: 'url("images/covid-right.png")',
                         margin: 0
                      }}>
-                    <div className="col-sm-6 d-none d-md-block" >
+                    <div className="col-lg-7 d-none d-lg-block" >
                         <div className='position-relative'>
                             < img className='' src="images/covid-left.png" alt="covid left" style={
                             
@@ -40,7 +40,7 @@ function Covid19() {
                         </div>
 
                     </div>
-                    <div className="col-sm-6 align-self-center">
+                    <div className="col-lg-5 align-self-center">
                         <div className="row">
                             <div className="col-4">
                                 <div style={{

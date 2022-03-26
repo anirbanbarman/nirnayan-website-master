@@ -15,23 +15,24 @@ import WhoAreWe from './components/WhoAreWe/WhoAreWe';
 function App() {
   return (
     <div style={{ width: "100%" }}>
-      <Header />
-      {/* <BannerSlider />
+   <Header />
+  <BannerSlider />
 
       <CardCarousal title="Test" />
-      <CardCarousal title="Packages" />
-      <OrganWiseTest />
-       <Covid19 /> 
+    <CardCarousal title="Packages" /> 
+       <OrganWiseTest />
+     
+          <Covid19 /> 
 
-       <BlogCarousal />
+<BlogCarousal />  
       <AwardsCarousal />
       
 
-    <Download />
+<Download />
    
-      <WhoAreWe />
+    <WhoAreWe />
       
-        <Footer /> */}
+        <Footer />  
 
 
 

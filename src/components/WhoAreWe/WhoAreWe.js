@@ -5,7 +5,7 @@ function WhoAreWe() {
         <div className='container'>
 
             <div className="row" style={{ height: 350 }}>
-                <div className="col-sm-7  px-sm-5 pt-5">
+                <div className="col-md-7  px-sm-5 pt-5">
                     <h4 style={{ color: "#44b098" }}>How we are ?</h4>
                     <div className='w-50' style={{ height: 3, backgroundColor: "black" }}></div>
                     <div className='w-sm-75'>
@@ -14,7 +14,7 @@ function WhoAreWe() {
                     </div>
 
                 </div>
-                <div className="col-sm-5 align-self-center d-flex justify-content-center">
+                <div className="col-md-5 align-self-center d-flex justify-content-center">
                     <div style={{
                         backgroundColor: "#daf5b2",
                         width: "320px",
@@ -72,7 +72,7 @@ function WhoAreWe() {
                 </div>
             </div>
 
-            <div className='d-none d-sm-block' style={{ textAlign: "center" }}><button style={{
+            <div className='d-none d-md-block' style={{ textAlign: "center" }}><button style={{
                 "backgroundColor": "rgb(212, 249, 207)", "padding": "3px 12px", "borderColor": "#049961", "boxShadow": "none", "borderRadius": "15px"
 
 

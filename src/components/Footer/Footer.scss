@@ -4,15 +4,48 @@
 
     .footer-wrapper{
         margin-top: 24rem;
+        background-image: "url('images/_footer.png')";
+        width: 100%;
+        height: 500px;
+        background-size: "cover";
+        position: "relative";
+    }
+
+    .f-s{
+        font-size: 14px;
     }
     
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    
+    .footer-wrapper{
+       
+        background-image: "url('images/_footer.png')";
+        width: 100%;
+        height: 500px;
+        background-size: "100% 500px";
+        position: "relative";
+    }
+  
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .footer-wrapper{
+        margin-top: 24rem;
+        
+    .footer-wrapper{
+        margin-top: 24rem;
+        background-image: "url('images/_footer.png')";
+        width: 100%;
+        height: 500px;
+        background-size: "cover";
+        position: "relative";
+    }
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}

@@ -13,7 +13,7 @@ function Download() {
         }}>
             <div className='row'>
 
-                <div className="col-sm-7 d-none d-md-block " style={{
+                <div className="col-md-7 d-none d-md-block " style={{
                     backgroundImage: 'url("images/download-bg.png")',
                     height: '350px',
                     backgroundSize: "contain",
@@ -21,7 +21,7 @@ function Download() {
                     backgroundSize: "90% 350px",
 
                 }}></div>
-                <div className="col-sm-5">
+                <div className="col-md-5">
                     <div className='m-4 '>
                         <div className='text-center mt-5'>
                             <h5>Download</h5>
