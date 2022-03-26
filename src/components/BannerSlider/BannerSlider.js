@@ -13,7 +13,7 @@ const BannerSlider = () => {
 
     };
     return (
-        <div className="container my-3 px-4">
+        <div className=" my-3 px-5" style={{width:"99%"}}>
 
             <Slider {...settings}>
                 <div className='position-relative'>

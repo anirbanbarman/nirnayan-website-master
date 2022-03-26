@@ -30,19 +30,19 @@ const Header = () => {
     <div className={styles.stickyHeader}>
     <div className='d-none d-md-block' style={{ width: '100%', minHeight: 150, position: "relative",backgroundColor:"white" }}>
           <img src='images/header-top.png' style={{ width: '100%' }} />
-           <h1 className='d-none d-md-block'  style={{ right: '22%', top: '.8rem', position: "absolute", color: "#038563" }} >Nirnayan HealthCare</h1>
+           <h1 className='d-none d-md-block'  style={{ right: '22%', top: '.8rem', position: "absolute", color: "#038563",fontFamily: 'Arima Madurai' }} >Nirnayan HealthCare</h1>
 
       <div className="row justify-content-md-center w-100 " style={{ height: 60 }} >
         <div className="col-sm-5" ><img src='images/icons/nirnayan-logo.png' style={{
           width: '25%',
           height: '60%',
           position: "absolute",
-          top: "1rem",
+          top: "1.4rem",
           left: "4rem"
         }} /></div>
         <div className="col-sm-2 align-self-end text-center ">
 
-          <MDBInputGroup className='w-75 ' style={{ float: "right" }} >
+          {/* <MDBInputGroup className='w-75 ' style={{ float: "right" }} >
             <MDBInputGroupElement type='text' value="Kolkata" style={{ border: "1.8px solid green" }} />
             <MDBDropdown  >
               <MDBDropdownToggle className='bg-warning text-dark' style={{ boxShadow: "none",padding: '8.5px 22.5px',
@@ -63,7 +63,13 @@ const Header = () => {
 
               </MDBDropdownMenu>
             </MDBDropdown>
-          </MDBInputGroup>
+          </MDBInputGroup> */}
+
+          <div className='d-flex' style={{width:'75%',height:30, border: "2px solid green",borderRadius:5}}>
+            <div style={{flex:2}}>Kolkata</div>
+            <div style={{backgroundColor:"#ffc107",flex:1}}> <MDBIcon fas icon="chevron-down"  size='1x' /></div>
+
+          </div>
         </div>
         <div className="col-sm-2 align-self-end text-center">
           <div className="d-flex pr-3 justify-content-center">
@@ -81,7 +87,7 @@ const Header = () => {
         </div>
         <div className="col-sm-1 align-self-end">
           <div className="d-flex align-items-end justify-content-end">
-            <div className="px-2"><h5 className='font-weight-bold'>Login</h5></div>
+            <div className="px-2 d-none d-lg-block"><h5 className='font-weight-bold'>Login</h5></div>
             <div><img src='images/icons/user.png' width={35} alt="User" /></div>
 
           </div>
@@ -112,7 +118,7 @@ const Header = () => {
       <div className="d-flex pr-3 justify-content-center position-absolute" style={{    right: '3%',
     top: '15px'}}>
             <div><img src='images/icons/search.png' width={25} alt="search icon" /></div>
-            <div className="px-2"> <input style={{  width:'80%',borderRadius:10 }} placeholder="Serach" /></div>
+            <div className="px-2"> <input style={{  width:'80%',borderRadius:10,borderColor:"green" }} placeholder="Serach" /></div>
           </div>
           <div className="col-sm-5" ><img src='images/icons/nirnayan-logo.png' style={{
           "width":"32%","height":"68%","position":"absolute","top":"0.7rem"

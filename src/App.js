@@ -16,7 +16,7 @@ function App() {
   return (
     <div style={{ width: "100%" }}>
       <Header />
-      <BannerSlider />
+      {/* <BannerSlider />
 
       <CardCarousal title="Test" />
       <CardCarousal title="Packages" />
@@ -31,7 +31,7 @@ function App() {
    
       <WhoAreWe />
       
-        <Footer />
+        <Footer /> */}
 
 
 
