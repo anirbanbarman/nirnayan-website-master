@@ -65,7 +65,7 @@ const Header = () => {
             </MDBDropdown>
           </MDBInputGroup> */}
 
-          <div className='d-flex' style={{width:'75%',height:30, border: "2px solid green",borderRadius:5}}>
+          <div className='d-flex' style={{width:'75%',height:32, border: "2px solid green",borderRadius:5}}>
             <div style={{flex:2}}>Kolkata</div>
             <div style={{backgroundColor:"#ffc107",flex:1}}> <MDBIcon fas icon="chevron-down"  size='1x' /></div>
 
@@ -97,12 +97,12 @@ const Header = () => {
 
         <div className="d-flex justify-content-between align-items-center h-100 mx-4">
           <div className='d-flex justify-content-around' style={{ width: '50rem' }}>
-            <div>About Us</div>
-            <div>Patients</div>
-            <div>Laboratory</div>
-            <div>Science Behind</div>
-            <div>Blogs</div>
-            <div>Association</div>
+            <div >About Us <MDBIcon fas icon="chevron-down"  size='1x' /></div>
+            <div className={styles.active}>Patients <MDBIcon fas icon="chevron-down"  size='1x' /></div>
+            <div>Laboratory <MDBIcon fas icon="chevron-down"  size='1x' /></div>
+            <div>Science Behind <MDBIcon fas icon="chevron-down"  size='1x' /></div>
+            <div>Blogs <MDBIcon fas icon="chevron-down"  size='1x' /></div>
+            <div>Association <MDBIcon fas icon="chevron-down"  size='1x' /></div>
 
           </div>
           <div className='position-relative'><img src='images/icons/basket.png' width={25} alt="search icon" /><span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger " style={{ fontSize: 10 }}>
