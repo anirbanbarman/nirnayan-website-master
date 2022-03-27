@@ -14,11 +14,12 @@ import Package from './pages/Packages';
 
 
 function App() {
-  const history = useHistory();
+
   return (
+    <Router>
     <div style={{ width: "100%" }}>
 
-      <Router history={history}>
+ 
 
         <Switch>
           <Route exact path="/">
@@ -31,7 +32,7 @@ function App() {
             <Package />
           </Route>
         </Switch>
-      </Router>
+     
 
 
 
@@ -41,6 +42,7 @@ function App() {
 
 
     </div>
+    </Router>
   );
 }
 
