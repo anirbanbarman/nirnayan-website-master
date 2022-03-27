@@ -16,7 +16,7 @@ function Footer() {
 
                     <div style={{width:"99%"}}>
 
-                        <div className="row">
+                        <div className="row px-4">
                             <div className="col-md-6 d-none d-md-block p-3">
                                 <div>
                                     <h2 style={{ color: "#f3ff33" }}>Links</h2>

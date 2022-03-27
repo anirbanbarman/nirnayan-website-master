@@ -24,7 +24,7 @@ function WhoAreWe() {
                     }}>
                         <div className='py-3'>
                             <h5 style={{ color: "#44b098", textAlign: "center", lineHeight: 1, margin: 0 }}>Accreditation</h5>
-                            <img src='images/icons/line.png' width={"98%"} alt="line" />
+                            <img src='images/icons/line.png' width={"98%"} alt="lines" />
 
                             <div className="row p-2">
                                 <div className="col-3 mx-2">
@@ -32,8 +32,9 @@ function WhoAreWe() {
                                         <img style={{
                                             width: 50,
                                             height: 50,
-                                            transform: "translate(10px, 12px)"
-                                        }} src="images/icons/nabl-log.png" />
+                                            transform: "translate(10px, 12px)",
+                                            
+                                        }} alt="" src="images/icons/nabl-log.png" />
                                     </div>
                                 </div>
                                 <div className="col-8" style={{ fontSize: 12, lineHeight: 1.2 }}>Lorem ipsum dolor sit  repudiandae mollitia impedit quibusdam sunt porro accusamus facilis nemo?</div>
@@ -48,7 +49,7 @@ function WhoAreWe() {
                                             width: 50,
                                             height: 50,
                                             transform: "translate(10px, 12px)"
-                                        }} src="images/icons/iso-logo.png" />
+                                        }} src="images/icons/iso-logo.png" alt=""/>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +60,7 @@ function WhoAreWe() {
                                             width: 50,
                                             height: 50,
                                             transform: "translate(10px, 12px)"
-                                        }} src="images/icons/nabl-log.png" />
+                                        }} src="images/icons/nabl-log.png" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-8" style={{ fontSize: 12, lineHeight: 1.2 }}>Lorem ipsum dolor sit  repudiandae mollitia impedit quibusdam sunt porro accusamus facilis nemo?</div>
