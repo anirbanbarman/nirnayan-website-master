@@ -13,7 +13,7 @@ function Packages() {
                     }}>
                         <div>
                             <div className='d-flex w-100 align-items-center'>
-                                <h2 className='pkg-text-size' style={{ color: "#005a96" }}><h2  className='pkg-text-size'>Executive Package </h2> <h2 className='pkg-text-size' >Platinum Male</h2></h2>
+                                <div className='pkg-text-size' style={{ color: "#005a96" }}><h2  className='pkg-text-size'>Executive Package </h2> <h2 className='pkg-text-size' >Platinum Male</h2></div>
                                 <h1 style={{ marginLeft: 50, display: "flex" }}><span style={{ color: "gray", textDecoration: "line-through", textDecorationColor: "red" }}>₹1299/- </span> <span style={{ color: "black", marginLeft: 20 }}>₹699/- </span></h1>
                             </div>
                             <div className='d-lg-flex'>
