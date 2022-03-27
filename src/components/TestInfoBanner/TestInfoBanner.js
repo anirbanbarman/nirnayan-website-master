@@ -145,7 +145,7 @@ function TestInfoBanner() {
                 <div className='mt-5 container'>
                     <h4>Related test</h4>
                     <div style={{ height: 3, backgroundColor: "green", width: 130 }}></div>
-                    <CardCarousal />
+                    <CardCarousal link="test-info" />
                 </div>
 
 

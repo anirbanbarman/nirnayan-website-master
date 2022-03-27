@@ -1,40 +1,38 @@
 
 import './App.scss';
-import AwardsCarousal from './components/AwardsCarousal/AwardsCarousal';
-import BannerSlider from './components/BannerSlider/BannerSlider';
-import BlogCarousal from './components/BlogCarousal/BlogCarousal';
-import CardCarousal from './components/CardCarousal/CardCarousal';
-import Covid19 from './components/Covid19/Covid19';
-import Download from './components/download/Download';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import OrganWiseTest from './components/OrganWiseTest/OrganWiseTest';
-import TestInfoBanner from './components/TestInfoBanner/TestInfoBanner';
-import WhoAreWe from './components/WhoAreWe/WhoAreWe';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './pages/Home';
+import TestInfo from './pages/TestInfo';
+
+import { useHistory } from 'react-router-dom';
+import Package from './pages/Packages';
 
 
 function App() {
+  const history = useHistory();
   return (
     <div style={{ width: "100%" }}>
-   <Header round />
-   <TestInfoBanner/>
-  {/* <BannerSlider />
 
-      <CardCarousal title="Test" />
-    <CardCarousal title="Packages" /> 
-       <OrganWiseTest />
-     
-          <Covid19 /> 
+      <Router history={history}>
 
-<BlogCarousal />  
-      <AwardsCarousal />
-      
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/test-info">
+            <TestInfo />
+          </Route>
+          <Route path="/packages">
+            <Package />
+          </Route>
+        </Switch>
+      </Router>
 
-<Download />
-   
-    <WhoAreWe />
-      
-        <Footer />   */}
 
 
 

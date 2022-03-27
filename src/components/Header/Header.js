@@ -21,9 +21,11 @@ import {
   MDBCollapse
 
 } from 'mdb-react-ui-kit';
+import { useHistory } from 'react-router-dom';
 
 
 const Header = ({round}) => {
+  let history = useHistory();
   const [showNavSecond, setShowNavSecond] = useState(false);
 
   return (
@@ -34,9 +36,9 @@ const Header = ({round}) => {
 
       <div className="row justify-content-md-center w-100 " style={{ height: 60 }} >
         <div className="col-sm-5" >
-          {round?  <img src='images/icons/nirnayan-logo-small.png' style={{
+          {round?  <img src='images/icons/nirnayan-logo-small.png' onClick={()=>history.push("/")} style={{
          "width":"16%","height":"60%","position":"absolute","top":"1.2rem","left":"6rem"
-        }} />: <img src='images/icons/nirnayan-logo.png' style={{
+        }} />: <img onClick={()=>history.push("/")} src='images/icons/nirnayan-logo.png' style={{
           width: '25%',
           height: '60%',
           position: "absolute",
