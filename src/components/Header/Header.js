@@ -23,7 +23,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 
-const Header = () => {
+const Header = ({round}) => {
   const [showNavSecond, setShowNavSecond] = useState(false);
 
   return (
@@ -33,13 +33,17 @@ const Header = () => {
            <h1 className='d-none d-md-block'  style={{ right: '22%', top: '.8rem', position: "absolute", color: "#038563",fontFamily: 'Arima Madurai' }} >Nirnayan HealthCare</h1>
 
       <div className="row justify-content-md-center w-100 " style={{ height: 60 }} >
-        <div className="col-sm-5" ><img src='images/icons/nirnayan-logo.png' style={{
+        <div className="col-sm-5" >
+          {round?  <img src='images/icons/nirnayan-logo-small.png' style={{
+         "width":"16%","height":"60%","position":"absolute","top":"1.2rem","left":"6rem"
+        }} />: <img src='images/icons/nirnayan-logo.png' style={{
           width: '25%',
           height: '60%',
           position: "absolute",
-          top: "1.4rem",
+          top: "1.5rem",
           left: "4rem"
-        }} /></div>
+        }} />}
+         </div>
         <div className="col-sm-2 align-self-end text-center ">
 
           {/* <MDBInputGroup className='w-75 ' style={{ float: "right" }} >

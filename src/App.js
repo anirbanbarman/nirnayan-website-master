@@ -9,14 +9,16 @@ import Download from './components/download/Download';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import OrganWiseTest from './components/OrganWiseTest/OrganWiseTest';
+import TestInfoBanner from './components/TestInfoBanner/TestInfoBanner';
 import WhoAreWe from './components/WhoAreWe/WhoAreWe';
 
 
 function App() {
   return (
     <div style={{ width: "100%" }}>
-   <Header />
-  <BannerSlider />
+   <Header round />
+   <TestInfoBanner/>
+  {/* <BannerSlider />
 
       <CardCarousal title="Test" />
     <CardCarousal title="Packages" /> 
@@ -32,7 +34,7 @@ function App() {
    
     <WhoAreWe />
       
-        <Footer />  
+        <Footer />   */}
 
 
 

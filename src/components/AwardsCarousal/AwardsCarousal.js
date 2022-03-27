@@ -32,7 +32,7 @@ export default class AwardsCarousal extends Component {
             dots: false,
             infinite: false,
             speed: 500,
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 2,
             initialSlide: 0,
             nextArrow: <SampleNextArrow  />,
