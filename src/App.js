@@ -4,13 +4,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './pages/Home';
 import TestInfo from './pages/TestInfo';
 
-import { useHistory } from 'react-router-dom';
 import Package from './pages/Packages';
+import Laboratory from './pages/Laboratory';
+import Cart from './pages/Cart';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
  
 
         <Switch>
+          
           <Route exact path="/">
             <Home />
           </Route>
@@ -30,6 +31,12 @@ function App() {
           </Route>
           <Route path="/packages">
             <Package />
+          </Route>
+          <Route path="/laboratory">
+            <Laboratory />
+          </Route>
+          <Route path="/cart">
+            <Cart />
           </Route>
         </Switch>
      

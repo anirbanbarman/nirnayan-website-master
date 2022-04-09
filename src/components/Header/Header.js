@@ -1,27 +1,20 @@
 import React,{useState} from 'react';
 import styles from  './Header.module.scss';
 import {
-  MDBInputGroup,
-  MDBInputGroupText,
-  MDBInputGroupElement,
-  MDBDropdown,
-  MDBDropdownLink,
-  MDBDropdownItem,
-  MDBDropdownMenu,
-  MDBDropdownToggle,
-  MDBDropdownDivider,
+
   MDBContainer,
   MDBNavbar,
-  MDBNavbarBrand,
+
   MDBNavbarToggler,
   MDBNavbarNav,
-  MDBNavbarItem,
+
   MDBNavbarLink,
   MDBIcon,
   MDBCollapse
 
 } from 'mdb-react-ui-kit';
 import { useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Header = ({round}) => {
@@ -31,20 +24,20 @@ const Header = ({round}) => {
   return (
     <div className={styles.stickyHeader}>
     <div className='d-none d-md-block' style={{ width: '100%', minHeight: 150, position: "relative",backgroundColor:"white" }}>
-          <img src='images/header-top.png' style={{ width: '100%' }} />
+          <img src='images/header-top.png' style={{ width: '100%' }}alt="" />
            <h1 className='d-none d-md-block'  style={{ right: '22%', top: '.8rem', position: "absolute", color: "#038563",fontFamily: 'Arima Madurai' }} >Nirnayan HealthCare</h1>
 
       <div className="row justify-content-md-center w-100 " style={{ height: 60 }} >
         <div className="col-sm-5" >
           {round?  <img src='images/icons/nirnayan-logo-small.png' onClick={()=>history.push("/")} style={{
          "width":"16%","height":"60%","position":"absolute","top":"1.2rem","left":"6rem"
-        }} />: <img onClick={()=>history.push("/")} src='images/icons/nirnayan-logo.png' style={{
+        }}alt="" />: <img onClick={()=>history.push("/")} src='images/icons/nirnayan-logo.png' style={{
           width: '25%',
           height: '60%',
           position: "absolute",
           top: "1.5rem",
           left: "4rem"
-        }} />}
+        }}alt="" />}
          </div>
         <div className="col-sm-2 align-self-end text-center ">
 
@@ -111,10 +104,12 @@ const Header = ({round}) => {
             <div>Association <MDBIcon fas icon="chevron-down"  size='1x' /></div>
 
           </div>
-          <div className='position-relative'><img src='images/icons/basket.png' width={25} alt="search icon" /><span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger " style={{ fontSize: 10 }}>
+          <Link to = "cart" >
+          <div className='position-relative' ><img src='images/icons/basket.png' width={25} alt="search icon" /><span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger " style={{ fontSize: 10 }}>
             0
             <span className="visually-hidden">unread messages</span>
           </span></div>
+          </Link>
         </div>
       </div>
       </div>
@@ -128,8 +123,8 @@ const Header = ({round}) => {
           </div>
           <div className="col-sm-5" ><img src='images/icons/nirnayan-logo.png' style={{
           "width":"32%","height":"68%","position":"absolute","top":"0.7rem"
-        }} /></div>
-           <img src='images/header-top.png' style={{ width: '100%',height:60 }} />
+        }} alt=""/></div>
+           <img src='images/header-top.png' style={{ width: '100%',height:60 }}alt="" />
          
            <MDBNavbarToggler
            style={{"right":"12px","bottom":"23px","fontSize":"24px","position":"absolute"}}
@@ -158,10 +153,10 @@ const Header = ({round}) => {
            </MDBNavbarLink>
            <MDBNavbarLink style={{color:'#009448'}} href='#'>Association
            </MDBNavbarLink>
-           <MDBNavbarLink className='position-relative' style={{color:'#009448'}} href='#'>
+           <MDBNavbarLink className='position-relative' style={{color:'#009448'}}  href='cart'>
          Cart  <img src='images/icons/basket.png' width={25} alt="search icon" /><span className="position-absolute top-1  translate-middle badge rounded-pill bg-danger " style={{ fontSize: 10 }}>
             0
-            <span className="visually-hidden">unread messages</span>
+            {/* <span className="visually-hidden">unread messages</span> */}
           </span>
              </MDBNavbarLink>
             

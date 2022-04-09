@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 import Slider from "react-slick";
 import './CardCarousal.scss';
 
@@ -107,7 +107,7 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                             </div>
 
                         </div>
@@ -138,7 +138,7 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                             </div>
 
                         </div>
@@ -169,40 +169,7 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-
-
-                </div>
-                <div onClick={handleClick}>
-                    <div className="card-width" style={{
-                        height: '280px',
-                        margin: '15px',
-
-                        backgroundColor: "white",
-                        borderRadius: '20px',
-                        boxShadow: '3px 4px 11px 0px #613f4a',
-                        position: "relative"
-
-                    }}>
-                        <div style={{ height: '50px', backgroundColor: "#008896", borderTopLeftRadius: '20px', borderTopRightRadius: "20px" }}>
-                            <h6 className="w-50 text-white p-2">Basic Health Package</h6>
-                        </div>
-
-                        <div className="p-2">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam laudantium consectetur possimus!</p>
-                        </div>
-
-                        <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
-                            <div className="d-flex justify-content-between mx-3">
-                                <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                             </div>
 
                         </div>
@@ -235,7 +202,7 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt=""/></div>
                             </div>
 
                         </div>
@@ -268,7 +235,40 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt=""/></div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+                <div onClick={handleClick}>
+                    <div className="card-width" style={{
+                        height: '280px',
+                        margin: '15px',
+
+                        backgroundColor: "white",
+                        borderRadius: '20px',
+                        boxShadow: '3px 4px 11px 0px #613f4a',
+                        position: "relative"
+
+                    }}>
+                        <div style={{ height: '50px', backgroundColor: "#008896", borderTopLeftRadius: '20px', borderTopRightRadius: "20px" }}>
+                            <h6 className="w-50 text-white p-2">Basic Health Package</h6>
+                        </div>
+
+                        <div className="p-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam laudantium consectetur possimus!</p>
+                        </div>
+
+                        <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
+                            <div className="d-flex justify-content-between mx-3">
+                                <div className="text-black"><h2>₹100</h2></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                             </div>
 
                         </div>
@@ -300,7 +300,7 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt=""/></div>
                             </div>
 
                         </div>
@@ -332,7 +332,7 @@ export default function CardCarousal(props) {
                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                             <div className="d-flex justify-content-between mx-3">
                                 <div className="text-black"><h2>₹100</h2></div>
-                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                             </div>
 
                         </div>

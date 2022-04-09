@@ -15,7 +15,7 @@ function OrganWiseTest() {
                 <div className=' col-lg-1 align-self-center test-icons' >
                     <div className='my-2'>
                         <div style={{ width: 80, height: 80, textAlign: "center", backgroundColor: "white", borderRadius: 50, boxShadow: "4px 4px 7px 0px #bfb5b5" }}>
-                            <img className='my-2' src='images/icons/male.png' width={25} height={65} />
+                            <img className='my-2' alt="" src='images/icons/male.png' width={25} height={65} />
 
                         </div>
                         <div><p className='text-center'>Male</p></div>
@@ -23,7 +23,7 @@ function OrganWiseTest() {
 
                     <div className='my-2'>
                         <div style={{ width: 80, height: 80, textAlign: "center", backgroundColor: "white", borderRadius: 50, boxShadow: "4px 4px 7px 0px #bfb5b5" }}>
-                            <img className='my-2' src='images/icons/female.png' width={25} height={65} />
+                            <img className='my-2' alt="" src='images/icons/female.png' width={25} height={65} />
 
                         </div>
                         <div><p className='text-center'>Female</p></div>

@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import './AwardsCarousal.scss';
 
 function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const {  style, onClick } = props;
   
     return (
         <div
@@ -16,7 +16,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { style, onClick } = props;
     return (
         <div
             className="slick-arrow slick-prev prev"
@@ -98,8 +98,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards1.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>
@@ -117,8 +116,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards2.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>
@@ -135,8 +133,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards3.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>
@@ -152,8 +149,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards1.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>
@@ -169,8 +165,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards2.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>
@@ -186,8 +181,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards1.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>
@@ -203,8 +197,7 @@ export default class AwardsCarousal extends Component {
                                 <img src="images/awards3.png" style={{
                                     width: "100%",
                                     height: "100%",
-                                    objectFit: "cover",
-                                    objectFit: "cover",
+                                   objectFit: "cover",
                                     filter: "blur(2px)",
                                 }} alt="" />
                             </div>

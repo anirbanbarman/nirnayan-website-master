@@ -30,7 +30,7 @@ const BannerSlider = () => {
                         <div style={{ height: 3, backgroundColor: "green" }}></div>
                         <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
                     </div> */}
-                    <img src='images/banner.png' className={styles.banner} />
+                    <img src='images/banner.png' className={styles.banner} alt="" />
 
                 </div>
 
@@ -48,7 +48,7 @@ const BannerSlider = () => {
                         <div style={{ height: 3, backgroundColor: "green" }}></div>
                         <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
                     </div> */}
-                    <img src='images/banner.png' className={styles.banner}/>
+                    <img src='images/banner.png' className={styles.banner} alt=""/>
 
                 </div>
 

@@ -32,7 +32,7 @@ function TestInfoBanner() {
                         <img src='images/test-info.png' style={{
                             "height": "412px", "width": "100%", "marginTop": "0"
                         }
-                        } />
+                        } alt="" />
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@ function TestInfoBanner() {
                                             width: 50,
                                             height: 50
                                         }
-                                        } />
+                                        } alt="" />
                                         <div className='mx-3'><div style={{ fontWeight: 600, color: "gray", lineHeight: 1 }} >Test Code</div>
                                             <div style={{ fontWeight: 600, color: "black" }} >A006</div>
                                         </div>
@@ -62,7 +62,7 @@ function TestInfoBanner() {
                                             width: 50,
                                             height: 50
                                         }
-                                        } />
+                                        } alt=""/>
                                         <div className='mx-3'><div style={{ fontWeight: 600, color: "gray", lineHeight: 1 }} >Home Collection</div>
                                             <div style={{ fontWeight: 600, color: "black" }} >Available</div>
                                         </div>
@@ -82,7 +82,7 @@ function TestInfoBanner() {
                                             height: 50
 
                                         }
-                                        } />
+                                        } alt="" />
                                         <div className='mx-3'><div style={{ fontWeight: 600, color: "gray", lineHeight: 1 }} >Accreditation</div>
                                             <div style={{ fontWeight: 600, color: "black" }} >NABL</div>
                                         </div>
@@ -91,9 +91,10 @@ function TestInfoBanner() {
                                 <div className='col-6 m-2'>
 
                                     <div className='d-flex'>
-                                        <img src='images/icons/sample-type.png' style={{
+                                        <img  alt="" src='images/icons/sample-type.png' style={{
                                             width: 50,
                                             height: 50
+                                          
                                         }
                                         } />
                                         <div className='mx-3'><div style={{ fontWeight: 600, color: "gray", lineHeight: 1 }} >Sample Type</div>
@@ -138,7 +139,7 @@ function TestInfoBanner() {
                         width: '95%', filter: "blur(2px)",
 
                     }
-                    } /></div>
+                    } alt="" /></div>
                 </div>
 
 

@@ -16,7 +16,7 @@ function Download() {
                 <div className="col-md-7 d-none d-md-block " style={{
                     backgroundImage: 'url("images/download-bg.png")',
                     height: '350px',
-                    backgroundSize: "contain",
+                    // backgroundSize: "contain",
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "90% 350px",
 

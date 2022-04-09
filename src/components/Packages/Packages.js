@@ -37,7 +37,7 @@ function Packages() {
                                         width: 50,
                                         height: 50
                                     }
-                                    } />
+                                    } alt=""/>
                                     <div className='mx-3'><div style={{ fontWeight: 600, color: "black", lineHeight: 1 }} >Test Parameter</div>
                                         <div style={{ fontWeight: 600, color: "#008896", textAlign: "end", fontSize: 18, lineHeight: 1 }} >24</div>
                                     </div>
@@ -51,7 +51,7 @@ function Packages() {
                                         width: 50,
                                         height: 50
                                     }
-                                    } />
+                                    } alt=""/>
                                     <div className='mx-3'><div style={{ fontWeight: 600, color: "black", lineHeight: 1 }} >Test Parameter</div>
                                         <div style={{ fontWeight: 600, color: "#008896", textAlign: "end", fontSize: 18, lineHeight: 1 }} >Same Day</div>
                                     </div>
@@ -64,7 +64,7 @@ function Packages() {
                         <img src='images/packages.png' style={{
                             "height": "412px", "width": "100%", "marginTop": "0"
                         }
-                        } />
+                        }alt="" />
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@ function Packages() {
                                 width: 40,
                                 height: 50
                             }
-                            } />
+                            } alt=""/>
                             <div className='mx-3 my-2'><div style={{ fontWeight: 600, color: "black", lineHeight: 1 }} >Preparation</div>
                                 <div style={{ color: "gray", fontSize: 15, lineHeight: 1, marginTop: 10 }} ><em>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non turpis elit. Mauris tempor purus non sem volutpat tincidunt. Proin ac dapibus enim, placerat consectetur libero. Morbi molestie, leo ut luctus commodo, velit tortor interdum magna, eget ultrices libero neque ac dolor. Sed ultricies, magna et dictum placerat, turpis est pretium augue, at condimentum diam risus nec metus. Aenean ullamcorper neque dolor, a tempus nibh dictum vitae. Fusce vel pulvinar urna. Quisque a tincidunt dui, nec iaculis sapien.</em> </div>
@@ -146,7 +146,7 @@ function Packages() {
                                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                                             <div className="d-flex justify-content-between mx-3">
                                                 <div className="text-black"><h2>₹100</h2></div>
-                                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                                             </div>
 
                                         </div>
@@ -175,7 +175,7 @@ function Packages() {
                                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                                             <div className="d-flex justify-content-between mx-3">
                                                 <div className="text-black"><h2>₹100</h2></div>
-                                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                                <div><img src="images/icons/basket-round.png" width={40} alt="" /></div>
                                             </div>
 
                                         </div>
@@ -204,7 +204,7 @@ function Packages() {
                                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                                             <div className="d-flex justify-content-between mx-3">
                                                 <div className="text-black"><h2>₹100</h2></div>
-                                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                                <div><img src="images/icons/basket-round.png" width={40}alt="" /></div>
                                             </div>
 
                                         </div>
@@ -233,7 +233,7 @@ function Packages() {
                                         <div style={{ position: "absolute", width: "100%", bottom: 0, height: "50px" }}>
                                             <div className="d-flex justify-content-between mx-3">
                                                 <div className="text-black"><h2>₹100</h2></div>
-                                                <div><img src="images/icons/basket-round.png" width={40} /></div>
+                                                <div><img src="images/icons/basket-round.png" width={40} alt=""/></div>
                                             </div>
 
                                         </div>
