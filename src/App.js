@@ -1,7 +1,7 @@
 
 import './App.scss';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -11,6 +11,7 @@ import TestInfo from './pages/TestInfo';
 import Package from './pages/Packages';
 import Laboratory from './pages/Laboratory';
 import Cart from './pages/Cart';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <Router>
     <div style={{ width: "100%" }}>
 
- 
+    <ScrollToTop/>
 
         <Switch>
           
