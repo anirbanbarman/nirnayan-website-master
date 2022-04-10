@@ -1,8 +1,15 @@
 import React from 'react'
+import DepartmentCarousal from '../components/DepartmentCarousal/DepartmentCarousal'
+import Header from '../components/Header/Header'
+import LaboratoryDetails from '../components/LaboratoryDetails/LaboratoryDetails'
 
 function Laboratory() {
   return (
-    <div>Laboratory</div>
+   <>
+   <Header round/>
+   <DepartmentCarousal/>
+   <LaboratoryDetails/>
+   </>
   )
 }
 

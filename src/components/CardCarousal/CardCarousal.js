@@ -95,7 +95,7 @@ export default function CardCarousal(props) {
                         boxShadow: '3px 4px 11px 0px #613f4a',
                         position: "relative"
 
-                    }}>
+                       }}>
                         <div style={{ height: '50px', backgroundColor: "#008896", borderTopLeftRadius: '20px', borderTopRightRadius: "20px" }}>
                             <h6 className="w-50 text-white p-2">Basic Health Package</h6>
                         </div>

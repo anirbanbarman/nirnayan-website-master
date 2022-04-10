@@ -7,10 +7,10 @@ function CartItem() {
     return (
         <div className='m-2 m-sm-5 p-sm-2'>
             <div className='d-flex align-items-baseline'>
-                <MDBIcon fas icon="arrow-left" size='1x' />
+            <Link to='/'>  <MDBIcon fas icon="arrow-left" size='1x' /></Link>
                 <MDBBreadcrumb style={{ marginLeft: 10 }}>
                     <MDBBreadcrumbItem>
-                        <Link to='/'>Home</Link>
+                    <MDBBreadcrumbItem >Home</MDBBreadcrumbItem>
                     </MDBBreadcrumbItem>
                     <MDBBreadcrumbItem active>Cart</MDBBreadcrumbItem>
                 </MDBBreadcrumb>
