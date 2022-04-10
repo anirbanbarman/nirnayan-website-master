@@ -1,5 +1,6 @@
 import React from 'react'
 import './OrganWiseTest.scss'
+import MaleBody from './../MaleBody/MaleBody';
 
 function OrganWiseTest() {
     return (
@@ -31,7 +32,7 @@ function OrganWiseTest() {
 
                 </div>
                 <div className='col-lg-3 d-none d-lg-block'>
-                    <div
+                    {/* <div
                         style={{
                             "backgroundColor": "rgb(148, 204, 251)", "width": "300px", "height": "100%", "borderRadius": "15px", textAlign: "center"
 
@@ -40,7 +41,9 @@ function OrganWiseTest() {
                         <img src="images/human.png" alt="human" width={'120px'} height={"auto"} className="my-5" />
 
 
-                    </div>
+                        
+                    </div> */}
+                    <MaleBody/>
                 </div>
                 <div className=' col-lg-6 align-self-center'>
 

@@ -2,6 +2,7 @@ import React from 'react'
 import './LaboratoryDetails.scss';
 import CardCarousal from './../CardCarousal/CardCarousal';
 import EquipmentCarousal from './../EquipmentsCarousal/EquipmentCarousal';
+import TeamCarousal from '../TeamCarousal/TeamCarousal';
 
 
 
@@ -42,7 +43,7 @@ function LaboratoryDetails() {
                 <h3> Our Team of Doctors</h3>
 
             </div>
-
+       <TeamCarousal/>
 
 
            

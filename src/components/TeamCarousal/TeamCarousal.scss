@@ -1,0 +1,90 @@
+.each-team{
+    min-height: 340px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 130px;
+border-bottom-right-radius: 130px;
+width: 230px !important;
+background: linear-gradient(131deg, #f5f5f6,#b6b8ba);
+margin-top: 70px;
+}
+.team-wrap,  .team-wrap2{
+    height: 125px;
+width: 125px;
+border-radius: 50%;
+background: linear-gradient(-5deg, #d666f3, #15a177, #d666f3, #15a177);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+overflow: hidden;
+padding: 7px;
+margin: auto;
+position: relative;
+top: -50px;
+}
+.team-head{
+    height: 100%;
+width: 100%;
+border-radius: 50%;
+overflow: hidden;
+border: 5px solid #fff;
+}
+.team-head img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+.team-txt, .team-txt2{
+color: #fff;
+text-transform: uppercase;
+background: linear-gradient(-45deg, #d666f3, #15a177, #d666f3, #15a177);
+background-size: 400% 400%;
+animation: gradient 20s ease infinite;
+min-height: 110px;
+margin-top: -35px;
+position: relative;
+padding-top: 50px;
+}
+.team-txt:before, .team-txt2:before{
+position: absolute;
+content: '';
+top: -8px;
+width: 100%;
+height: 30px;
+ background: url(../../images/crv.png) no-repeat right;
+background-size: cover;
+left: 0;
+}
+.team-txt h4, .team-txt2 h4{
+font-size: 18px;
+font-weight: bold;
+}
+.each-team h5{
+padding: 15px 25px 0 55px;
+}
+.team-wrap2{
+background:linear-gradient(-45deg, #e5599e, #345ca4, #e5599e, #345ca4);
+background-size: 400% 400%;
+}
+.team-txt2{
+background: linear-gradient(-45deg, #e5599e, #345ca4, #e5599e, #345ca4);
+background-size: 400% 400%;
+}
+@media screen and (max-width:480px){
+.each-team {
+min-height: 360px;
+width: 100% !important;
+border-bottom-left-radius: 180px;
+border-bottom-right-radius: 180px;
+}
+}
