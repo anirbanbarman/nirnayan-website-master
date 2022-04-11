@@ -79,7 +79,7 @@ const Header = ({ round }) => {
               <div >About Us <MDBIcon fas icon="chevron-down" size='1x' /></div>
               </NavLink>
               <NavLink to="/parents" activeClassName={styles.active}>
-              <div className>Patients <MDBIcon fas icon="chevron-down" size='1x' /></div>
+              <div >Patients <MDBIcon fas icon="chevron-down" size='1x' /></div>
               </NavLink>
               <NavLink to="/laboratory" activeClassName={styles.active}>
               <div>Laboratory <MDBIcon fas icon="chevron-down" size='1x' /></div>
@@ -154,7 +154,7 @@ const Header = ({ round }) => {
                 </div></MDBNavbarLink>
                 <MDBNavbarLink style={{ color: '#009448' }} href='#'><div className="d-flex justify-content-center align-items-baseline">
                   <div><img src='images/icons/user.png' width={25} alt="User" /></div>
-                  <div className="px-2"><h5 className=''>Login</h5></div>
+                  <div className="px-2"><h5 >Login</h5></div>
 
                 </div></MDBNavbarLink>
 

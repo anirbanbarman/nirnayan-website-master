@@ -10,7 +10,7 @@
 .set-organs {
   position: relative;
   width: 350px;
-  height: 565px;
+  height: 482px;
 }
 
 .brain-set {
@@ -42,7 +42,7 @@
 
 .liver-set:hover {
     //   transform: scale(1.2);
-    z-index: 10;
+    z-index: 11;
     animation-name: zoom;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -122,12 +122,12 @@
   position: absolute;
   top: 282px;
   left: 153.45px;
-  z-index: 11;
+  z-index: 12;
   width: 43px;
   cursor: pointer;
   &:hover {
     //   transform: scale(1.2);
-    z-index: 10;
+    z-index: 12;
     animation-name: zoom;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -144,7 +144,7 @@
   cursor: pointer;
   &:hover {
     //   transform: scale(1.2);
-    z-index: 10;
+    z-index: 12;
     animation-name: zoom;
     animation-duration: 2s;
     animation-iteration-count: infinite;

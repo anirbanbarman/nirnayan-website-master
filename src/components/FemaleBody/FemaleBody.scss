@@ -1,0 +1,227 @@
+
+.female-body{
+
+.full-body {
+    display: flex;
+    justify-content: center;
+  //   background: #fff;
+  //   border: 1px solid #e6eaee;
+  //   box-sizing: border-box;
+  //   border-radius: 40px;
+  //   padding: 10px 0 0;
+  }
+  .set-organs {
+    position: relative;
+    width: 350px;
+    height: 482px;
+  }
+  
+  .brain-set {
+    position: absolute;
+    top: 3.5px;
+    left: 87px;
+    z-index: 10;
+    width: 50px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+  
+  .brain-set:hover {
+    //   transform: scale(1.2);
+    z-index: 10;
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .liver-set {
+    position: absolute;
+    top: 211.46px;
+    left: 63.49px;
+    z-index: 10;
+    width: 90px;
+    cursor: pointer;
+  }
+  
+  .liver-set:hover {
+      //   transform: scale(1.2);
+      z-index: 11;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  
+  .lungs-set {
+    position: absolute;
+    top: 93px;
+    left: 62px;
+    z-index: 10;
+    width: 104px;
+    cursor: pointer;
+//animation-name: zoom;
+   // animation-duration: 2s;
+   // animation-iteration-count: infinite;
+}
+  
+  .lungs-set:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  .thyroid-set {
+    position: absolute;
+    top: 102px;
+    left: 101px;
+    z-index: 10;
+    width: 25px;
+    cursor: pointer;
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  
+  
+  .kidney-set {
+    position: absolute;
+    top: 247px;
+    left: 65.45px;
+    z-index: 10;
+    width: 95px;
+    cursor: pointer;
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  .stomach-set {
+    position: absolute;
+    top: 94px;
+    left: 93.45px;
+    z-index: 10;
+    width: 66px;
+    cursor: pointer;
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  
+  .pancreas-set {
+    position: absolute;
+    top: 263px;
+    left: 93.45px;
+    z-index: 12;
+    width: 40px;
+    cursor: pointer;
+
+
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 12;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  
+  .female_reproductive_system-set {
+    position: absolute;
+    top: 338px;
+    left: 66px;
+    z-index: 10;
+    width: 94px;
+    cursor: pointer;
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 12;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  
+  .intestines-set {
+    position: absolute;
+    top: 260px;
+    left: 64px;
+    z-index: 10;
+    width: 97px;
+    cursor: pointer;
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  .bludder-set {
+    position: absolute;
+    top: 270px;
+    left: 83px;
+    z-index: 10;
+    width: 60px;
+    cursor: pointer;
+    cursor: pointer;
+    &:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+  
+  .heart-set {
+    position: absolute;
+    top: 171px;
+    left: 104px;
+    z-index: 10;
+    width: 31px;
+    cursor: pointer;
+  }
+  .heart-set:hover {
+      //   transform: scale(1.2);
+      z-index: 10;
+      animation-name: zoom;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(0.9);
+    }
+    25% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    75%{
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  
+}

@@ -1,49 +1,101 @@
 .organ-test {
-    height: 380px;
+    height: 420px;
+    background-image: url('../../images/organ-bg1.png');
+  
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-y: 260px;
+}
+.organ-part{
+    width: 200px;
+    height: 180px;
+    
+    margin-right: 20px;
+    background-image: url('../../images/red-spot.png'), url('../../images/yellow-spot.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.organ-height{
-    height: 400px
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #ede2e2;
+}
+  
+
+.human-body {
+  display: flex;
+  position: relative;
+  background: white;
+  justify-content: center;
+  padding-top: 15px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 12px 1px #918e8e;
+  .male {
+    position: absolute;
+    left: 115px;
+    z-index: 10;
+    cursor: pointer;
+  }
+  .female {
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+
+    right: 115px;
+  }
+ 
+}
+.overlap{
+    margin-left: -45px;
+    z-index: 1;
+
+  }
+.disabled{
+    opacity: .4;
+    // pointer-events: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .organ-height{
-        height: 580px
-    }
-    .organ-test {
-        height: 480px;
-    }
-    .test-icons {
-        display: flex;
-        justify-content: space-around;
-    }
+  .organ-height {
+    height: 580px;
+  }
+  .organ-test {
+    height: 480px;
+  }
+  .test-icons {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .test-icons {
-        display: flex;
-        justify-content: space-around;
-    }
+  .test-icons {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .test-icons {
-        display: flex;
-        justify-content: space-around;
-    }
-  
+  .test-icons {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .test-icons {
-        display: block;
-
-    }
-  
+  .test-icons {
+    display: block;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
