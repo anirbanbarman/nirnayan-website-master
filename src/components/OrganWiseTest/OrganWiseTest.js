@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './OrganWiseTest.scss'
 import MaleBody from './../MaleBody/MaleBody';
 import FemaleBody from './../FemaleBody/FemaleBody';
+import { Link } from 'react-router-dom';
 
 function OrganWiseTest() {
 
@@ -21,12 +22,14 @@ function OrganWiseTest() {
                     <div className='human-body'>
                         <div className={IsMale?"male ":" disabled male "} onClick={()=>setMale(true)}>
                             <img className='my-2' alt="" src='images/icons/male-new.png' width={25} height={65} />
+                            <div className='font-weight-bold text-center'>M</div>
 
                         </div>
 {IsMale?   <MaleBody />: <div style={{marginLeft:110}}><FemaleBody/></div>}
                      
                         <div className={IsMale?"female disabled":" female "} onClick={()=>setMale(false)}>
                             <img className='my-2' alt="" src='images/icons/female-new.png' width={25} height={65} />
+                            <div className='font-weight-bold text-center'>F</div>
 
                         </div>
 
@@ -83,6 +86,11 @@ function OrganWiseTest() {
                             </div>
 
                         </div>
+
+                      <Link  to='organ-wise-page'><div className='read-more'>
+                            Read More <img src='images/icons/btn-arrow.png' alt='btn right arrow' width={13}/>
+                        </div>
+                        </Link>
 
                     </div>
                 </div>

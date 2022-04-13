@@ -5,6 +5,7 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-position-y: 260px;
+    position: relative;
 }
 .organ-part{
     width: 200px;
@@ -26,6 +27,17 @@
     border-radius: 100px;
     background-color: #ede2e2;
 }
+  .read-more{
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    background-color: #f2ffde;
+    padding: 2px 15px;
+    border: 2px solid #00a19f;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
   
 
 .human-body {

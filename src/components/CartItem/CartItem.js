@@ -12,7 +12,7 @@ function CartItem() {
                     <MDBBreadcrumbItem>
                     <MDBBreadcrumbItem >Home</MDBBreadcrumbItem>
                     </MDBBreadcrumbItem>
-                    <MDBBreadcrumbItem active>Cart</MDBBreadcrumbItem>
+                    <MDBBreadcrumbItem >Cart</MDBBreadcrumbItem>
                 </MDBBreadcrumb>
             </div>
 

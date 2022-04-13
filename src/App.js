@@ -12,6 +12,7 @@ import Package from './pages/Packages';
 import Laboratory from './pages/Laboratory';
 import Cart from './pages/Cart';
 import ScrollToTop from './components/ScrollToTop';
+import OrganWisePage from './components/OrganWisePage/OrganWisePage';
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route path="/cart">
             <Cart />
+          </Route>
+          <Route path="/organ-wise-page">
+            <OrganWisePage />
           </Route>
         </Switch>
      

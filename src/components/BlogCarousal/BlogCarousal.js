@@ -4,11 +4,11 @@ import './BlogCarousal.scss';
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
-  
+
     return (
         <div
-            className= {className +" next"}
-            style={{ ...style, display: "block"}}
+            className={className + " next"}
+            style={{ ...style, display: "block" }}
             onClick={onClick}
         />
     );
@@ -18,7 +18,7 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className={className +" prev"}
+            className={className + " prev"}
             style={{ ...style, display: "block", }}
             onClick={onClick}
         />
@@ -27,6 +27,7 @@ function SamplePrevArrow(props) {
 
 export default class BlogCarousal extends Component {
     render() {
+        console.log(this.props.hide)
         var settings = {
             dots: false,
             infinite: false,
@@ -34,7 +35,7 @@ export default class BlogCarousal extends Component {
             slidesToShow: 4,
             slidesToScroll: 2,
             initialSlide: 0,
-            nextArrow: <SampleNextArrow  />,
+            nextArrow: <SampleNextArrow />,
             prevArrow: <SamplePrevArrow />,
             responsive: [
                 {
@@ -42,7 +43,7 @@ export default class BlogCarousal extends Component {
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 3,
-                   
+
                     }
                 },
                 {
@@ -64,10 +65,13 @@ export default class BlogCarousal extends Component {
         };
         return (
             <div className="container mt-5 px-4">
-            <div className="text-center">
-              <h1 >Blogs</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga </p>
-              </div>
+                <div className="text-center">
+                    {!this.props.hide &&
+                        <>    <h1 >Blogs</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga </p>
+                        </>}
+
+                </div>
                 <Slider {...settings}>
                     <div >
 
@@ -81,10 +85,10 @@ export default class BlogCarousal extends Component {
                                 }} alt="" />
                             </div>
 
-                            <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
                             <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
                                 Ipsum Lorem Ipsum Lorem Ipsum Lorem
-                               </div>
+                            </div>
                         </div>
                     </div>
 
@@ -92,133 +96,133 @@ export default class BlogCarousal extends Component {
 
                     <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog1.jpg" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog1.jpg" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
 
 
-<div >
+                    <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog3.jpg" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog3.jpg" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
 
-<div >
+                    <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog4.png" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog4.png" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
-<div >
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
+                    <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog1.jpg" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog1.jpg" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
-<div >
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
+                    <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog3.jpg" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog3.jpg" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
-<div >
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
+                    <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog4.png" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog4.png" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
-<div >
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
+                    <div >
 
-<div className="each-test">
+                        <div className="each-test">
 
-    <div className="test-wrap">
-        <img src="images/blog1.jpg" style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover"
-        }} alt="" />
-    </div>
+                            <div className="test-wrap">
+                                <img src="images/blog1.jpg" style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }} alt="" />
+                            </div>
 
-    <h5 className="mt-4" style={{color:"#00a05e"}}>Basic Health Packages</h5>
-    <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem
-       </div>
-</div>
-</div>
+                            <h5 className="mt-4" style={{ color: "#00a05e" }}>Basic Health Packages</h5>
+                            <div className="m-0">Lorem Ipsum Lorem Ipsum Lorem
+                                Ipsum Lorem Ipsum Lorem Ipsum Lorem
+                            </div>
+                        </div>
+                    </div>
 
 
 
