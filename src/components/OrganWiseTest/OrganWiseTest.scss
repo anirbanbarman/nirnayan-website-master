@@ -63,11 +63,7 @@
   }
  
 }
-.overlap{
-    margin-left: -45px;
-    z-index: 1;
 
-  }
 .disabled{
     opacity: .4;
     // pointer-events: none;
@@ -75,6 +71,18 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .organ-part{
+    width: 100% !important;
+    height: 180px;
+    
+    margin-right: 20px;
+    background-image: none;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+
+    display: inline-block;
+ 
+}
   .organ-height {
     height: 580px;
   }
@@ -85,6 +93,12 @@
     display: flex;
     justify-content: space-around;
   }
+  .overlap{
+    margin-left: 0px !important;
+    z-index: 1;
+    /* margin-top: 16px; */
+    margin-top: 10px !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -93,6 +107,25 @@
     display: flex;
     justify-content: space-around;
   }
+  .overlap{
+    margin-left: 0px !important;
+    z-index: 1;
+    /* margin-top: 16px; */
+    margin-top: 10px !important;
+  }
+
+  .organ-part{
+    width: 100% !important;
+    height: 180px;
+    
+    margin-right: 20px;
+    background-image: none;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+
+    display: inline-block;
+ 
+}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -101,6 +134,12 @@
     display: flex;
     justify-content: space-around;
   }
+  .overlap{
+    margin-left: 0px !important;
+    z-index: 1;
+    /* margin-top: 16px; */
+    margin-top: 10px !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -108,8 +147,32 @@
   .test-icons {
     display: block;
   }
+  .overlap{
+    margin-left: -45px !important;
+    z-index: 1;
+
+  }
+  .organ-part{
+    width: 200px !important;
+    height: 180px;
+    
+    margin-right: 20px;
+    background-image: url('../../images/red-spot.png'), url('../../images/yellow-spot.png') !important;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+  
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .overlap{
+    margin-left: -45px !important;
+    z-index: 1;
+
+  }
 }

@@ -13,7 +13,7 @@ const BannerSlider = () => {
 
     };
     return (
-        <div className=" my-3 px-5" style={{width:"99%"}}>
+        <div className="banner-container my-sm-3 my-1  px-sm-4" style={{width:"99%"}}>
 
             <Slider {...settings}>
                 <div className='position-relative'>
@@ -30,7 +30,7 @@ const BannerSlider = () => {
                         <div style={{ height: 3, backgroundColor: "green" }}></div>
                         <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
                     </div> */}
-                    <img src='images/banner.png' className={styles.banner} alt="" />
+                    <img src='images/banner-bg.jpg' className={styles.banner} alt="" />
 
                 </div>
 
@@ -48,7 +48,7 @@ const BannerSlider = () => {
                         <div style={{ height: 3, backgroundColor: "green" }}></div>
                         <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
                     </div> */}
-                    <img src='images/banner.png' className={styles.banner} alt=""/>
+                    <img src='images/banner-bg.jpg' className={styles.banner} alt=""/>
 
                 </div>
 

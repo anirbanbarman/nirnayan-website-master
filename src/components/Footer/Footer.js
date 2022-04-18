@@ -48,7 +48,7 @@ function Footer() {
                                         </div>
                                     </div>
 
-                                    <div className='w-100 px-5 text-white'>
+                                    <div className='w-100 px-sm-5 text-white'>
                                         <p className='f-s'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, itaque! Fugiat, soluta, et itaque sint quia esse nulla obcaecati quod cum expedita vero modi explicabo optio. Cupiditate mollitia iure, inventore libero maiores possimus repudiandae iusto quaerat provident ea, ut nemo.</p>
                                     </div>
 

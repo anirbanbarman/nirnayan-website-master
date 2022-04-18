@@ -135,11 +135,15 @@ function TestInfoBanner() {
                             </MDBAccordion>
                         </div>
                     </div>
-                    <div className='col-md-6'>  <img src='images/report.png' style={{
+                    <div className='col-md-6 position-relative'>
+                        <div className='mx-2 position-absolute' style={{zIndex:1}}>     <button className='btn btn-success'>Download</button></div>
+               
+                          <img src='images/report.png' style={{
                         width: '95%', filter: "blur(2px)",
 
                     }
-                    } alt="" /></div>
+                    } alt="" />
+                    </div>
                 </div>
 
 

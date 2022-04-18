@@ -3,7 +3,7 @@ import './Covid19.scss';
 
 function Covid19() {
     return (
-        <div className='container  position-relative' style={{marginTop:"7rem"}}>
+        <div className='container covid position-relative' >
              <div className="text-center">
                 <h1 >Covid-19</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga </p>
